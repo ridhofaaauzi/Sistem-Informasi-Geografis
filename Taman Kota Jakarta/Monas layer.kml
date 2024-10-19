@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Monas layer</name>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Area Taman Monas</name>
+      <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              106.8259341,-6.1714891,0
+              106.8235308,-6.1715105,0
+              106.8232948,-6.1717238,0
+              106.8232733,-6.1725771,0
+              106.8231231,-6.1798091,0
+              106.8233377,-6.1801077,0
+              106.8237454,-6.1803424,0
+              106.825462,-6.1803424,0
+              106.8279296,-6.1802357,0
+              106.8308908,-6.1800864,0
+              106.8310839,-6.1797877,0
+              106.8309337,-6.1793824,0
+              106.8303329,-6.1788064,0
+              106.8306548,-6.1785504,0
+              106.8298823,-6.1777398,0
+              106.8299038,-6.1736438,0
+              106.8291098,-6.1730891,0
+              106.8290454,-6.1725345,0
+              106.8292171,-6.1718731,0
+              106.8288738,-6.1714891,0
+              106.8259341,-6.1714891,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
