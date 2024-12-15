@@ -36,7 +36,7 @@
           {
             type: "Feature",
             properties: {
-              lokasi: "Kampus A Nurul Fikri",
+              kampus: "Kampus A Nurul Fikri",
               kota: "Depok",
             },
             geometry: {
@@ -47,7 +47,7 @@
           {
             type: "Feature",
             properties: {
-              lokasi: "Kampus B Nurul Fikri",
+              kampus: "Kampus B Nurul Fikri",
               kota: "Jakarta Selatan",
             },
             geometry: {
@@ -58,7 +58,7 @@
           {
             type: "Feature",
             properties: {
-              lokasi: "Kampus UI Depok",
+              kampus: "Kampus UI Depok",
               kota: "Depok",
             },
             geometry: {
@@ -69,7 +69,7 @@
           {
             type: "Feature",
             properties: {
-              lokasi: "Kampus Univ Pancasila Lenteng Agung Jaksel",
+              kampus: "Kampus Univ Pancasila Lenteng Agung Jaksel",
               kota: "Jakarta Selatan",
             },
             geometry: {
@@ -80,7 +80,7 @@
           {
             type: "Feature",
             properties: {
-              lokasi: "Kampus Gunadarma Kelapa Dua Depok",
+              kampus: "Kampus Gunadarma Kelapa Dua Depok",
               kota: "Depok",
             },
             geometry: {
@@ -91,7 +91,7 @@
           {
             type: "Feature",
             properties: {
-              lokasi: "Kampus Polimedia Srengseng Sawah Jaksel",
+              kampus: "Kampus Polimedia Srengseng Sawah Jaksel",
               kota: "Jakarta Selatan",
             },
             geometry: {
@@ -105,7 +105,7 @@
       var geojson = L.geoJSON(aoi, {
         onEachFeature: function (feature, layer) {
           layer.bindPopup(
-            feature.properties.lokasi + "<br/>" + feature.properties.kota
+            feature.properties.kampus + "<br/>" + feature.properties.kota
           );
         },
       }).addTo(map);
